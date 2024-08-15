@@ -32,7 +32,7 @@ export default function Intro() {
         </div>
       </div>
       <div className="mt-4 mb-10 px-4">
-        <motion.p
+        <motion.h1
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 2, y: 0 }}
           transition={{
@@ -47,7 +47,7 @@ export default function Intro() {
           with <span className="font-bold">1.5+ years</span> of expericence. i
           enjoy building
           <span className="font-bold"> websites and apps.</span>
-        </motion.p>
+        </motion.h1>
       </div>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
