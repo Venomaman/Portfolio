@@ -1,6 +1,7 @@
 "use client";
 
-import { delay, motion } from "framer-motion";
+import { useSectionInView } from "@/lib/hooks";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -8,8 +9,25 @@ import { BsArrowRight, BsGithub, BsTwitterX } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 
 export default function Intro() {
+  const { ref } = useSectionInView("Home", 0.5);
+
+  // here we made customeHooks in Hooks.ts from the below reusable-Hooks from every page...
+
+  // const {ref, inView} = useInView();
+  // const {setActiveSection, lastClick}  = useActiveSectionContext();
+
+  // useEffect(()=>{
+  //   if(inView && Date.now()- lastClick > 1000){
+  //     setActiveSection("Home");
+  //   }
+  // }, [inView, setActiveSection, lastClick])
+
   return (
-    <section className="mb-28 max-w-[50rem] text-center sm:mb-0">
+    <section
+      ref={ref}
+      id="home"
+      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-32"
+    >
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -44,7 +62,7 @@ export default function Intro() {
           <span className="font-bold">Aman Kumar Anand. </span>
           I'am a <span className="font-bold">Full Stack Engineer</span>/
           <span className="font-bold">Freelancer </span>
-          with <span className="font-bold">1.5+ years</span> of expericence. i
+          with <span className="font-bold">2 years</span> of expericence. i
           enjoy building
           <span className="font-bold"> websites and apps.</span>
         </motion.h1>
