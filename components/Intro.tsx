@@ -1,5 +1,6 @@
 "use client";
 
+import { useActiveSectionContext } from "@/context/ActiveSection";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -10,11 +11,11 @@ import { HiDownload } from "react-icons/hi";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
+  const {setActiveSection, setLastClick} = useActiveSectionContext();
 
   // here we made customeHooks in Hooks.ts from the below reusable-Hooks from every page...
 
   // const {ref, inView} = useInView();
-  // const {setActiveSection, lastClick}  = useActiveSectionContext();
 
   // useEffect(()=>{
   //   if(inView && Date.now()- lastClick > 1000){
@@ -78,6 +79,10 @@ export default function Intro() {
         <Link
           href="#contact"
           className="group bg-gray-800 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+         onClick={()=>{
+          setActiveSection("Contact");
+          setLastClick(Date.now());
+         }}
         >
           Contact me here
           <BsArrowRight className="opacity-70 group-hover:translate-x-3 transition" />
