@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated",
+    location: "Punjab, Jalandhar",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I completed my Bachelor's Degree in Computer Science and Software Engineering at the Lovely Professional University Jalandhar(LPU).",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2018 - 2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Intern(Full-Stack Developer)",
+    location: "Navi Mumbai, Maharastra",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a java full-stack developer for 6 months as an intern in Capgemini. where I worked on MICROSERVICES based projet.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Jan'2022 - Jun'2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Full-Stack Developer/Freelancer",
+    location: "Navi Mumbai, Maharastra",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I am working as a full-stack developer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Jun'2022 - present",
   },
 ] as const;
 
@@ -85,23 +85,32 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  "Java",
+  "Spring Boot",
+  "Spring REST",
+  "Microservices",
+  "Hibernate",
   "HTML",
   "CSS",
   "JavaScript",
   "TypeScript",
   "React",
+  "Angular",
   "Next.js",
   "Node.js",
   "Git",
+  "GitHub",
+  "Bootstrap",
   "Tailwind",
   "Prisma",
   "MongoDB",
+  "MySQL",
   "Redux",
+  "Zod",
   "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
+  "AWS",
+  "Docker",
   "Framer Motion",
 ] as const;

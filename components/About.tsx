@@ -18,28 +18,28 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me..</SectionHeading>
-      <p className="mb-3">
-        A dedicated Software Engineer with over 1.5 years of experience in{" "}
-        <span className="font-semibold">Full Stack Development </span>,
+      <p className="mb-3 font-light">
+        A dedicated <span className="font-extrabold text-slate-600">Software Engineer/Freelancer</span> with over 1.5+ years of experience in{" "}
+        <span className="font-bold text-slate-600">Full Stack Development </span>,
         specializing in{" "}
-        <span className="font-semibold">
+        <span className="font-bold text-slate-600">
           Java, JavaScript, and TypeScript.{" "}
         </span>
         Proficient in{" "}
-        <span className="font-semibold">frameworks/technologies</span> such as{" "}
-        <span className="font-semibold">
+        <span className="font-bold text-slate-600">frameworks/technologies</span> such as{" "}
+        <span className="font-bold text-slate-600">
           MEARN, NextJs, Spring, NodeJs, Angular, and React
         </span>
       </p>
-      <p>
+      <p className="font-light">
         I have hands-on experience with{" "}
-        <span className="font-semibold">databases</span> like{" "}
-        <span className="font-semibold">
+        <span className="font-bold text-slate-600">databases</span> like{" "}
+        <span className="font-bold text-slate-600">
           MySQL, MongoDB, and PostgreSQL, and tools such as Git, Docker, and
           Cloudflare Workers
         </span>
         . My work involves creating microservices with{" "}
-        <span className="font-semibold">
+        <span className="font-bold text-slate-600">
           Spring Boot, Spring Security, and Spring Cloud API Gateway, ensuring
           secure and efficient data management{" "}
         </span>
