@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import dreamHouse from "@/public/dreamHouse.png";
+import wmBlog from "@/public/wmBlog.png";
+import portfolio from "@/public/portfolio.png";
 
 export const links = [
   {
@@ -43,7 +43,7 @@ export const experiencesData = [
     date: "2018 - 2022",
   },
   {
-    title: "Intern(Full-Stack Developer)",
+    title: "Intern(Java Full-Stack Developer)",
     location: "Navi Mumbai, Maharastra",
     description:
       "I worked as a java full-stack developer for 6 months as an intern in Capgemini. where I worked on MICROSERVICES based projet.",
@@ -62,25 +62,25 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "DreamHSE",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a full-stack developer on this Personal project. Users can List/Find(optimized Search/multiple Filters) properties and also buy there dream house.",
+    tags: ["React", "Express", "MongoDB", "Tailwind", "Prisma"],
+    imageUrl: dreamHouse,
   },
   {
-    title: "rmtDev",
+    title: "Write-In-Medium",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A tech blog website for developer community. where people can intracts with other writers/blogs they can share any info on this site.",
+    tags: ["React", "TypeScript", "Zod", "Tailwind", "Redux"],
+    imageUrl: wmBlog,
   },
   {
-    title: "Word Analytics",
+    title: "It's Me",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A portfoli web app where u can follow/hire/contact me. its design with bunch of cool animation with proper details",
+    tags: ["React", "Next.js", "Tailwind", "Framer"],
+    imageUrl: portfolio,
   },
 ] as const;
 
