@@ -28,10 +28,10 @@ export default function Contact() {
       }}
     >
       <SectionHeading>Contact me..</SectionHeading>
-      <p className="text-gray-600 font-medium text-sm -mt-4">
+      <p className="text-gray-600 font-medium text-sm -mt-4 dark:text-white/70">
         I know you are not going to fill this Form😒{" "}
-        <span className="font-bold text-lg">contact me </span>directly at{" "}
-        <span className="text-slate-900 font-semibold text-lg underline">
+        <span className="font-bold text-lg dark:text-white/80">contact me </span>directly at{" "}
+        <span className="text-slate-900 font-semibold text-lg underline dark:text-white/90">
           aman11808891@gmail.com{" "}
         </span>
         or you know ryt..<span className="font-bold text-lg">⇩</span>
@@ -48,7 +48,7 @@ export default function Contact() {
       }}
       className="flex flex-col mt-10 dark:text-black">
         <input
-          className="h-14 px-4 rounded-lg border border-black/10 shadow-sm"
+          className="h-14 px-4 rounded-lg border border-black/10 shadow-sm dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           type="email"
           name="senderEmail"
           required
@@ -60,7 +60,7 @@ export default function Contact() {
           name="message"
           required
           maxLength={5000}
-          className="h-52 p-4 my-3 border border-black/10 rounded-lg shadow-sm"
+          className="h-52 p-4 my-3 border border-black/10 rounded-lg shadow-sm dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
         />
        <SubmitBtn/>
       </form>

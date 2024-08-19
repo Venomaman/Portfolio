@@ -30,7 +30,7 @@ const { ref } = useSectionInView("Skills", 0.1);
       <div>
         <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
           {skillsData.map((skill, index) => (
-            <motion.li key={index} className="bg-white border border-black/[0.1] px-5 py-3 rounded-xl hover:bg-slate-200 shadow-md"
+            <motion.li key={index} className="bg-white border border-black/[0.1] px-5 py-3 rounded-xl hover:bg-slate-200 shadow-md dark:bg-white/10 dark:text-white/80 dark:hover:bg-white/20"
             variants={fadeInAnimationVarients}
             initial="initial"
             whileInView="animate"

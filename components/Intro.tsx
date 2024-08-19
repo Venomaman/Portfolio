@@ -50,7 +50,7 @@ export default function Intro() {
           </motion.div>
         </div>
       </div>
-      <div className="mt-4 mb-10 px-4">
+      <div className="mt-4 mb-10 px-4 dark:text-white/80">
         <motion.h1
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 2, y: 0 }}
@@ -88,7 +88,7 @@ export default function Intro() {
           <BsArrowRight className="opacity-70 group-hover:translate-x-3 transition" />
         </Link>
         <a
-          className="group bg-white text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition border border-black/20"
+          className="group bg-white text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition border border-black/20 dark:bg-white/10 dark:text-gray-50"
           href="/CV.pdf"
           download
         >
@@ -96,14 +96,18 @@ export default function Intro() {
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
         <a
-          className="group bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full text-[1.35rem] outline-none focus:scale-110 hover:scale-110 active:scale-105 transition border border-black/20"
+          className="group bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full text-[1.35rem] outline-none focus:scale-110 hover:scale-110 active:scale-105 transition border border-black/20
+          dark:bg-white/10 dark:text-white
+          "
           href="https://github.com/Venomaman"
           target="_blank"
         >
           <BsGithub className="opacity-80 group-hover:opacity-100 group-hover:scale-125 transition" />
         </a>
         <a
-          className="group bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full text-[1.35rem] outline-none focus:scale-110 hover:scale-110 active:scale-105 transition border border-black/20"
+          className="group bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full text-[1.35rem] outline-none focus:scale-110 hover:scale-110 active:scale-105 transition border border-black/20
+          dark:bg-white/10 dark:text-white
+          "
           href="https://x.com/aman_and_anand"
           target="_blank"
         >
